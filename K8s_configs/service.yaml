@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: Sms_spamanalysis
+spec:
+  type: LoadBalancer
+  selector:
+    app: Sms_spamanalysis
+  ports:
+  - port: 80
+    targetPort: 50000
