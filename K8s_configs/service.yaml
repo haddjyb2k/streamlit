@@ -8,4 +8,4 @@ spec:
     app: Sms_spamanalysis
   ports:
   - port: 80
-    targetPort: 50000
+    targetPort: 5000
